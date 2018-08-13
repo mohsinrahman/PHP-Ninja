@@ -1,0 +1,31 @@
+* {
+	padding: 0;
+	margin-top: 0;
+	box-sizing: border-box;
+}
+
+
+.formFlex {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: space-between;
+	margin-top: 1rem; 
+	padding:1rem;
+	border: 1px solid lightgrey;
+/*	background-color: lightsalmon;*/
+	border-radius:0.3rem;
+}
+
+.form {
+	margin:4rem;
+}
+
+ .delPost{
+   
+    position:relative;
+}
+input[type="submit"] {
+    font-family: FontAwesome;
+    content: "&#xf014;";
+}
